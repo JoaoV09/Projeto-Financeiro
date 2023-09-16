@@ -1,0 +1,58 @@
+.conteudo .card {
+    width: 100%;
+    padding: 3vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+    background-color: #000000;
+}
+
+h2,
+h3,
+p {
+    font-size: 26px;
+    color: #FFFF;
+}
+
+.conteudo .slid {
+    width: 100%;
+    height: 80vh;
+    margin: 1vh auto 0 auto;
+}
+
+.conteudo .img-slid {
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo .card h1, .conteudo .card h2 {
+    margin: 0.5vh auto 20px auto;
+    padding: 1vw;
+    color: #CBB26A;
+    border-bottom: 1px solid #CBB26A;
+}
+
+.conteudo .card .cont {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 2vw;
+    background-color: #222222;
+    border-radius: 15px;
+}
+
+.conteudo .card .cont .per{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo .card .cont .equipe {
+    width: 10vw;
+    border-radius: 80%;
+}

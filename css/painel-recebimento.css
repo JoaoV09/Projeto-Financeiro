@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+}
+
+h2,h3,p {
+    font-size: 26px;
+    color: #FFFF;
+}
+
+.card .title {
+    margin-top: 4vh;
+    text-align: center;
+    color: #FFFF;
+}
+
+.card .pagamento .info {
+    width: 100%;
+    padding: 2vh 0 0 2vw;
+    border-bottom: 1px solid #CBB26A;
+}
+
+.card .pagamento .info .seuValor{
+    margin-right: 3vw;
+}
+
+.card .pagamento .conta {
+    width: 100%;
+    min-height: 60vh;
+    padding: 3vh 2vw 18vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: hidden;
+    background-color: #222222;
+}
+
+.card .pagamento .infoContas {
+    width: 30vw;  
+    height: auto;
+    padding: 3vh 2vw;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.card .pagamento .infoContas .cont-nome {
+    width: 100%;
+    padding: 0 0 10px 0;
+    margin-bottom: 5px;
+    color: #CBB26A;
+    border-bottom: 1px solid #FFFF;
+}
+
+.card .pagamento .infoContas .saibaMais {
+    width: 6vw;
+    height: 3vh;
+    padding: 0.5vh;
+    margin-top: 10px;
+    text-align: center;
+    color: #FFFF;
+    border-radius: 15px;
+    background-color: #CBB26A;
+}
+
+.card .pagamento .total {
+    width: 100%;
+    height: 13vh;
+    padding: 3vh 2vw;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #CBB26A;
+    background-color: #000000;
+}
+
+.botao-voa {
+    width: 3vw;
+    height: 6vh;
+    padding: 2vh;
+    text-align: center;
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+    background-color: #CBB26A;
+    border-radius: 15px;
+}
+
+.add {
+    scale: 2;
+}

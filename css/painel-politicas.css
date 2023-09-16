@@ -1,0 +1,30 @@
+.conteudo .card {
+    width: 50vw;
+    margin: auto;
+    padding: 5vw 2vh;
+}
+
+.conteudo .card p,
+.conteudo .card ol,
+.conteudo .card h1,
+.conteudo .card h2,
+.conteudo .card h3 {
+    color: var(--base-light-light-80, #FCFCFC);
+    text-align: justify;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.conteudo .card .concordo {
+    width: 15vw;
+    height: 5vh;
+    margin-top: 1vh;
+    padding: 1vh;
+    text-align: center;
+    display: block;
+    background-color: #CBB26A;
+    color: #fff;
+    border-radius: 15px;
+}

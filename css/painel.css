@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #000000;
+}
+
+.painel {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    background-color: #000000;
+    border-bottom: 1px solid #CBB26A;
+}
+
+.painel .con {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.painel .logo {
+    width: 220px;
+    height: 150px;
+}
+
+.nav-link {
+    width: 180px;
+    margin-left: 10px;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+}
+
+.painel .perfil {
+    width: 3vw;
+    height: 3vw;
+    margin-top: 5vh;
+    border-radius: 80%;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.drop {
+    width: 15vw;
+    height: 25vh;
+    padding: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 15vh;
+    right: 0;
+    background-color: #000000;
+    border: 1px solid #CBB26A;
+    border-right: none;
+}
+
+.drop .drop-link{
+    width: 180px;
+    height: 51px;
+    margin-left: 10px;
+    padding: 10px 0;
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+}
+
+.painel h1 {
+    margin: 10px 0;
+    color: #FFF;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+/* scrollBar */
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #CBB26A;
+}
+::-webkit-scrollbar-thumb {
+    background: #CBB26A;
+    border-radius: 15px;
+}   
